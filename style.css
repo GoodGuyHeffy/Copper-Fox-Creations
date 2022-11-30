@@ -159,26 +159,26 @@ footer {
     padding: 2px;
 }
 
-@media screen and (max-width: 937px) {
+@media only screen and (max-width: 937px) {
     .wood-shop img {
       display: none;
     }
   }
 
 
-@media screen and (max-width: 1018px) {
+@media only screen and (max-width: 1018px) {
     .about p {
         display: none;
     }
 }
 
-@media screen and (max-width: 526px) {
+@media only screen and (max-width: 526px) {
     .about span {
         display: none;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .about {
       display: none;
   }
