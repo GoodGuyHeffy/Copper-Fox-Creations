@@ -1,0 +1,179 @@
+.logo img {
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 100px;
+    width: 180px;
+    border-radius: 10%;
+    z-index: 5;
+    float: left;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #141212;
+}
+
+nav {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    height: 105px;
+    position: fixed;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 250px;
+    list-style: none;
+}
+
+li {
+float: right;
+padding-top: 10px;
+padding-right: 20px;
+}
+
+li a {
+ width: 100px;
+ font-size: 32px;
+ display: block;
+ padding: 20px 30px;
+ text-decoration: none;
+ font-family: Indie Flower;
+ color: white;
+ text-align: center;
+}
+li a:hover {
+    color: #ff9933;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    height: 590px;
+    background-image: url("https://thumbs.dreamstime.com/b/round-teak-wood-stump-woods-trees-circle-stumps-cutted-group-deforestation-tree-background-pieces-182324347.jpg%22");
+    padding-top: 50px; 
+    border-bottom: 5px solid black;
+}
+
+.container section {
+    text-align: center;
+    color: #ff9933;
+    font-size: 40px;
+    margin: auto  auto;
+    font-family: Indie Flower;
+    font-weight: bold;
+    background-color: #141212;
+    border-radius: 5%;
+    padding: 40px;
+}
+
+.image-gallery h1 {
+    color:#ff9933;
+    text-align: center;
+    font-family: Indie Flower;
+    font-size: 40px;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+ 
+.item {
+    margin: 5px;
+    height: 250px;
+    width: 300px;
+    border-radius: 5%;
+}
+
+.about {
+    color:#ff9933;
+    font-family: Indie Flower;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 500px;
+}
+
+.about h2 {
+    font-size: 50px;;
+}
+
+.about h3 {
+    font-size: 30px;
+}
+.about p {
+    font-size: 30px;
+}
+
+.wood-shop {
+    display: flex;
+    justify-content: center;
+}
+
+
+.wood-shop img {
+    height: 800px;
+    width: 70%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.contact {
+text-align: center;
+color:#ff9933;
+height: 300px;
+}
+
+.contact h2 {
+font-family: Indie Flower;
+font-size: 50px;
+
+}
+
+.contact p {
+font-family: Indie Flower;
+font-size: 32px;;
+}
+
+footer {
+    background-color: black;
+    color: #ff9933;
+    font-family: Indie FLower;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    letter-spacing: 2px;
+    padding: 2px;
+}
+
+@media screen and (max-width: 937px) {
+    .wood-shop img {
+      display: none;
+    }
+  }
+
+
+@media screen and (max-width: 1018px) {
+    .about p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 526px) {
+    .about span {
+        display: none;
+    }
+}
