@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 .logo img {
     position: fixed;
     margin-top: 5px;
